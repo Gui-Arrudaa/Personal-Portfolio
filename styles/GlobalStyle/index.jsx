@@ -8,8 +8,8 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
   }  
   body {
-    background: "#24292e";
-    color: "rgba(255, 255, 255, 0.87)";
+    background: #f6f8fa;
+    color: #212529;
   }
   ol, ul {
     list-style: none;
