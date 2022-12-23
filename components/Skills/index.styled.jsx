@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 const SkillsContainer = styled.div`
   padding: 2.5rem 5rem;
-  background: linear-gradient(180deg, rgba(182,45,236,1) 25%, rgba(140,25,185,1) 75%);
+  background: linear-gradient(180deg, rgba(182, 45, 236, 1) 25%, rgba(140, 25, 185, 1) 75%);
   color: #f6f8fa;
   text-align: center;
   display: flex;
@@ -17,7 +17,13 @@ const SkillsContainer = styled.div`
     padding: 2rem;
   }
 
+  @media screen and (max-width: 400px) {
+    padding: 1.5rem 1rem;
+  }
+
   h2 {
+    text-decoration: underline;
+
     @media screen and (max-width: 620px) {
       font-size: 20px;
     }
@@ -40,6 +46,11 @@ const SkillsContainer = styled.div`
 
     @media screen and (max-width: 620px) {
       column-gap: 2rem;
+      margin-top: 1rem;
+    }
+
+    @media screen and (max-width: 400px) {
+      margin-bottom: 0;
     }
 
     li {

@@ -16,7 +16,7 @@ import SkillsContainer from './index.styled';
 
 const Skills = () => {
   return (
-    <SkillsContainer>
+    <SkillsContainer id="Competencias">
       <h2>Essas são algumas das minhas Competências!</h2>
       <ul>
         <li>
