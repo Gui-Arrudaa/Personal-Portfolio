@@ -12,7 +12,7 @@ const About = () => {
         <p>
           Sou um estudante de Ciências da Computação da Universidade Federal do ABC (UFABC). Sou uma pessoa ambiciosa,
           que busca sempre os melhores resultados e que está constantemente procurando novos conhecimentos, visando
-          ampliar cada vez mais meu perfil profissional e pessoal. Estou em busca de um estágio na áre de tecnologia.
+          ampliar cada vez mais meu perfil profissional e pessoal. Estou em busca de um estágio na área de tecnologia.
         </p>
         <div>
           <FiArrowDown size={25} className="me-2" />
