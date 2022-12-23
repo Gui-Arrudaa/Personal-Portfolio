@@ -15,6 +15,11 @@ const AboutContainer = styled.div`
     gap: 3rem;
   }
 
+  @media screen and (max-width: 400px) {
+    padding: 1rem;
+    gap: 2.5rem;
+  }
+
   div.about {
     width: 50%;
     display: flex;
@@ -98,6 +103,10 @@ const AboutContainer = styled.div`
         width: 200px;
         height: 200px;
         box-shadow: 15px -15px #f6f8fa, 15px -15px 0px 3.5px #b62dec;
+      }
+
+      @media screen and (max-width: 400px) {
+        margin-bottom: 1rem;
       }
     }
   }
