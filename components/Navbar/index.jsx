@@ -21,7 +21,7 @@ const NavBar = () => {
               <FiUser size={17} className="me-1" />
               Sobre
             </Nav.Link>
-            <Nav.Link className="d-flex align-items-center">
+            <Nav.Link href="#Competencias" className="d-flex align-items-center">
               <FiAward size={17} className="me-1" />
               Competências
             </Nav.Link>
@@ -29,7 +29,7 @@ const NavBar = () => {
               <FiLayout size={17} className="me-1" />
               Projetos
             </Nav.Link>
-            <Nav.Link className="d-flex align-items-center">
+            <Nav.Link href="#Entre em Contato" className="d-flex align-items-center">
               <FiMail size={17} className="me-1" />
               Entre em Contato
             </Nav.Link>
